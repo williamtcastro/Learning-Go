@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main()  {
-    fmt.Printf("Hello World and Welcome to Go!\n")
-    fmt.Printf("Comments in Go is called using //,\n")
-    fmt.Printf("Multi-Line comments are called using /* and */ to close them.")
+    fmt.Println("Hello World and Welcome to Go!\n")
+    fmt.Println("Comments in Go is called using //,\n")
+    fmt.Println("Multi-Line comments are called using /* and */ to close them.")
 }
