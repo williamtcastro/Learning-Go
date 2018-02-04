@@ -6,8 +6,8 @@ func add(x, y float64) float64 {
 	return x + y
 }
 
-func multiple(a,b string) (string,string) {
-	return a,b
+func multiple(a, b string) (string, string) {
+	return a, b
 }
 
 func main() {
@@ -21,8 +21,7 @@ func main() {
 	//num1,num2 := 5.6, 9.5 this way the vars are theter with float64
 	fmt.Println("The sum of 5.6 and 9.5 is", add(num1, num2))
 
-	
 	w1, w2 := "Hey", "there"
-	fmt.Println(multiple(w1,w2))
+	fmt.Println(multiple(w1, w2))
 
 }
