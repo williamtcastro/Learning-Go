@@ -15,3 +15,5 @@ func add(num1 int,num2 int) (int, int)  {
 
 	return num1, num2
 }
+
+//returning two variables with one function
